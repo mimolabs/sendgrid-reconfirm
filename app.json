@@ -1,0 +1,23 @@
+{
+  "name": "SendGrid Reconfirm App",
+  "description": "Creates an application to clean your sendgrid lists",
+  "repository": "https://github.com/mimolabs/sendgrid-reconfirm/blob",
+  "keywords": ["sendgrid", "python", "gdpr"],
+  "env": {
+    "SENDGRID_TOKEN": {
+      "description": "Your SendGrid API Token",
+      "value": "xxxxx"
+    },
+    "OLD_LIST": {
+      "description": "The list you want to remove contacts from",
+      "value": "xxxxx"
+    },
+    "NEW_LIST": {
+      "description": "Your fancy new and clean list of people who want to talk to you!",
+      "value": "xxxxx"
+    }
+  },
+  "addons": [
+    "heroku-redis"
+  ]
+}
