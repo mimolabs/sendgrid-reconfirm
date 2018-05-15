@@ -11,7 +11,11 @@
       <div class="main">
         <div class="content">
           <div class="information">
-          <h2>Thanks for your support!</h2>
+            {% if email %}
+            <h2>Thanks for your support!</h2>
+            {% else %}
+            <h1>Email missing, invalid or already processed :)</h1>
+            {% endif %}      
           </div>
         </div>
       </div>
