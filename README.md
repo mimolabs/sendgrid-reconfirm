@@ -61,7 +61,7 @@ It will push to Heroku and give you a URL .
 On the server/machine you want to host this, you'll first need a machine with docker and docker-compose installed, then grab the RequestBin source using git:
 
 ```
-$ git clone git://github.com/Runscope/requestbin.git
+$ git clone git://github.com/mimolabs/sendgrid-reconfirm.git
 ```
 
 Go into the project directory and then build and start the containers
