@@ -23,6 +23,10 @@ Create another list that includes all your contacts. Get the listID - it's also 
 
 Get your API token - the docs for this can be found [here](https://sendgrid.com/docs/User_Guide/Settings/api_keys.html)
 
+### Heroku Deploy Template
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 #### Deploy your own instance using Heroku
 
 Create a Heroku account if you haven't, then grab the source using git:
