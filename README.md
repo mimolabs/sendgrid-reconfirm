@@ -55,7 +55,15 @@ Now just deploy via git:
 $ git push heroku master
 ```
 
-It will push to Heroku and give you a URL .
+It will push to Heroku and give you a URL you can use in your campaigns.
+
+## Add to your next campaign.
+
+Just add the following link to your next campaign!
+
+https://xxx.heroku.com?email=[%email%]
+
+Make sure you update with your own heroku URL.
 
 ## Deploy your own instance using Docker
 On the server/machine you want to host this, you'll first need a machine with docker and docker-compose installed, then grab the RequestBin source using git:
