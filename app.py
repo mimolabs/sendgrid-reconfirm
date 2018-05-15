@@ -2,6 +2,7 @@ import time
 import redis
 import json
 import requests
+import os
 
 from flask import Flask, render_template, request
 import config as config
