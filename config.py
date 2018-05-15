@@ -1,0 +1,6 @@
+import os
+
+REDIS_URL = os.environ.get("REDIS_URL")
+SENDGRID_TOKEN = os.environ.get("SENDGRID_TOKEN")
+NEW_LIST = 3790322
+OLD_LIST = 3021445

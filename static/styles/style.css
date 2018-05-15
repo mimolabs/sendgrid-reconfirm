@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  padding: 10% 0 0 0;
+  font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+  background: #fff url(/static/images/background.jpg)  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper{
+  max-width: 100%;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main{
+  max-width: 100%;
+  width: 940px;
+  float: left;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+}
+
+h1 strong{
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h2{
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.information{
+  width: 480px;
+  padding-top: 35px;
+  margin: 0 auto;
+}
