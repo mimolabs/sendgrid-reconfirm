@@ -8,7 +8,8 @@ import config as config
 
 application = Flask(__name__)
 
-cache = redis.Redis(host=config.REDIS_URL, port=6379)
+# cache = redis.Redis(host=config.REDIS_URL, port=6379)
+cache = redis.from_url(os.environ.get("REDIS_URL"))
 
 def process(email):
     url = "https://api.sendgrid.com/v3/contactdb/recipients"
