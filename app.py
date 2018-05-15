@@ -59,7 +59,7 @@ def index():
         if val is None:
             print('Importing email to lists')
             process(email)
-            # cache.set(email, time.time())
+            cache.set(email, time.time())
         else:
             print('{} already processed'.format(email))
 
