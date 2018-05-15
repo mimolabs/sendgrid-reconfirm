@@ -4,8 +4,8 @@ RUN apk update && apk upgrade && \
     apk add gcc python python-dev py-pip \
     && rm -rf /var/cache/apk/*
 
-ADD reqs.txt /opt/reconfirm/reqs.txt
-RUN pip install -r /opt/reconfirm/reqs.txt \
+ADD reqs.txt /opt/reconfirm/requirements.txt
+RUN pip install -r /opt/reconfirm/requirements.txt \
     && rm -rf ~/.pip/cache
 
 ADD . /opt/reconfirm/
